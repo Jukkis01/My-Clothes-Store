@@ -1,0 +1,21 @@
+.products-container {
+  text-align: center;
+}
+
+.product-images {
+  margin-top: 100px; /* Lisää ylimääräistä marginaalia ylhäällä */
+  margin-bottom: 100px; /* Lisää ylimääräistä marginaalia alapuolella */
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-link {
+  margin: 0 10px;
+}
+
+.product-image {
+  width: 150px;
+  height: 150px; /* Täsmälleen samankokoiset kuvat */
+  vertical-align: middle;
+  object-fit: contain; /* Kuva täyttää alueen ilman venymistä */
+}
