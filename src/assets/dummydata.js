@@ -1,6 +1,9 @@
 import MiestenHuppari from "../images/MiestenHuppari.webp"
+import MiestenHuppari2 from "../images/MiestenHuppari2.webp"
 import MiestenFarkut from "../images/MiestenFarkut.webp"
 import CelineAurinkolasit from "../images/CelineAurinkolasit.jpg"
+import Kello from "../images/Kello.jpg"
+import NaistenFarkut from "../images/NaistenFarkut.webp"
 
 export const dummydata = [
   {
@@ -36,5 +39,27 @@ export const dummydata = [
     description: "Stylish Celine sunglasses in metal frame.",
     image: CelineAurinkolasit,
   },
-  // Voit lisätä muita tuotteita tarpeen mukaan samassa muodossa
+  {
+    id: 4,
+    category: "Men",
+    type: "Clock",
+    brand: "Rolex",
+    name: "Rolex Submariner",
+    color: "Silver",
+    price: "$7500",
+    description: "Classic Rolex Submariner watch",
+    image: Kello,
+  },
+  {
+    id: 5,
+    category: "Women",
+    type: "Jeans",
+    brand: "Diesel",
+    name: "Diesel Women's Jeans",
+    color: "Dark Blue",
+    price: "$120",
+    description: "Stylish and comfortable women's jeans",
+    image: NaistenFarkut,
+  },
+  // Lisää muita tuotteita tarpeen mukaan
 ]

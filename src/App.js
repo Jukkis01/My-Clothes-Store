@@ -1,5 +1,3 @@
-// src/App.js
-
 import React from "react"
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom"
 import "./App.css"
@@ -13,6 +11,8 @@ import WomenCategories from "./components/WomenCategories"
 import MenJeans from "./components/MenJeans"
 import WomenGlasses from "./components/WomenGlasses"
 import MenHoodies from "./components/MenHoodies"
+import MenClocks from "./components/MenClocks"
+import WomenJeans from "./components/WomenJeans" // Lisää tämä tuonti
 
 const App = () => (
   <Router>
@@ -36,6 +36,9 @@ const App = () => (
         <Route path="/products/men/jeans" element={<MenJeans />} />
         <Route path="/products/women/glasses" element={<WomenGlasses />} />
         <Route path="/products/men/hoodies" element={<MenHoodies />} />
+        <Route path="/products/men/clocks" element={<MenClocks />} />
+        <Route path="/products/women/jeans" element={<WomenJeans />} />{" "}
+        {/* Lisää tämä reitti */}
       </Routes>
       <Footer />
     </div>

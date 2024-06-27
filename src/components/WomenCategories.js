@@ -1,5 +1,3 @@
-// src/components/WomenCategories.js
-
 import React from "react"
 import { Link } from "react-router-dom"
 import "../App.css"
@@ -43,6 +41,10 @@ const WomenCategories = () => (
       </div>
       <div className="category">
         <Link to="/products/women/clocks">Clocks</Link>
+      </div>
+      <div className="category">
+        <Link to="/products/women/jeans">Jeans</Link>{" "}
+        {/* Lisätty Jeans-kategoria */}
       </div>
     </div>
   </div>
