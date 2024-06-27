@@ -12,7 +12,7 @@ import MenJeans from "./components/MenJeans"
 import WomenGlasses from "./components/WomenGlasses"
 import MenHoodies from "./components/MenHoodies"
 import MenClocks from "./components/MenClocks"
-import WomenJeans from "./components/WomenJeans" // Lisää tämä tuonti
+import WomenJeans from "./components/WomenJeans"
 
 const App = () => (
   <Router>
@@ -37,8 +37,8 @@ const App = () => (
         <Route path="/products/women/glasses" element={<WomenGlasses />} />
         <Route path="/products/men/hoodies" element={<MenHoodies />} />
         <Route path="/products/men/clocks" element={<MenClocks />} />
-        <Route path="/products/women/jeans" element={<WomenJeans />} />{" "}
-        {/* Lisää tämä reitti */}
+        <Route path="/products/women/jeans" element={<WomenJeans />} />
+        {/* Lisää reitit tarpeen mukaan */}
       </Routes>
       <Footer />
     </div>
