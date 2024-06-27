@@ -5,7 +5,7 @@ import Versace from "../images/Versace.webp";
 import Balmain from "../images/Balmain.webp";
 import Polo from "../images/Polo.webp";
 import Gs from "../images/Gs.webp";
-import Max from "../images/Max.webp";
+import Max from "../images/Max.jpeg";
 
 export const dummydata = [
   {

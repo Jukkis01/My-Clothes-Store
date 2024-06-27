@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { dummydata } from "../assets/dummydata";
 import "../App.css";
 
@@ -22,4 +22,4 @@ const MenSocks = () => {
   );
 };
 
-export default MenSocks;
+export default MenSocks;*/
